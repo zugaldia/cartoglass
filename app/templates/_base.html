@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CartoGlass">
+    <meta name="author" content="Antonio Zugaldia">
+    <title>CartoGlass</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/sticky-footer.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+
+  <body>
+
+    <div id="wrap">
+
+      <div class="container">
+        <div class="page-header"><h1>CartoGlass</h1></div>
+        {% block content %}{% endblock content %}
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Source code available here:
+          <a href="https://github.com/zugaldia/cartoglass">https://github.com/zugaldia/cartoglass</a></p>
+      </div>
+    </div>
+
+  </body>
+</html>

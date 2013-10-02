@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<p class="lead">
+	{% if all_good %}
+		App successfully installed, return to <a href="/">the frontpage</a>.
+	{% else %}
+		Something went wrong, <a href="/install">please try again</a> in a few minutes.
+	{% endif %}
+</p>
+
+{% endblock content %}
