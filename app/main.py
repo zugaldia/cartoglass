@@ -110,13 +110,13 @@ class InstallHandler(webapp2.RequestHandler):
             # This is the most basic way of providing content, it looks great
             # in many situations (ignored if you use HTML content). It
             # auto-resizes according to the text length.
-            'text': 'Hello GDG enthusiast!',
+            'text': 'Hello Glassingtonian!',
             # You can use the playground to see how it's gonna look like:
-            # (pretty close to the text before, but with GDG in bold yellow)
+            # (pretty close to the text before, but with Glassingtonian in bold yellow)
             # https://developers.google.com/glass/playground. And the CSS:
             # https://mirror-api-playground.appspot.com/assets/css/base_style.css
             'html': '<article><section><p class="text-auto-size">Hello '
-                    '<strong class="yellow">GDG</strong> enthusiast!</p></section></article>',
+                    '<strong class="yellow">Glassingtonian</strong>!</p></section></article>',
             # Normally you won't need so many items, this just for demo purposes
             'menuItems': [
                 # These are all built-in (free implementation) actions
